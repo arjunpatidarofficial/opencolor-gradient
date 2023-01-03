@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.demo{
+  width: 17px;
+  height: 56px;
+  border: 2px solid white;
+  -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  -webkit-transition: all 50ms ease-out;
+  transition: all 50ms ease-out;
+}
+
+
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  background: rgba(237, 237, 237, 1);
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background-color: #eeeeee;
+  border-radius: 0px;
+  border: 4px solid #00000060;
+}
+
+
+
+.pointerDiv:hover{
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

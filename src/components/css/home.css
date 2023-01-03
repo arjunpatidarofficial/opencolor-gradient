@@ -1,0 +1,58 @@
+/* .svg-home {
+    width : var(--svg-width);
+    height : var(--svg-height, 70px); 
+} */
+
+
+/* Light icons color class (without Background) */
+.primary-l {
+    fill : var(--primary-color-l, none);
+    stroke-width : var(--stroke-color-l,8); 
+    stroke :var(--primary-strock-color-l, #E36501);
+}
+
+.secondary-l {
+   fill : var(--secondary-color-l, #ffffff);  
+}
+
+/* Solid icons color class (without Background) */
+.primary-s {
+    fill :var(--primary-color-s, #E36501);
+}
+
+.secondary-s {
+    fill : var(--secondary-color-s, #ffffff);  
+ }
+
+ /* Solid icons color class (with Background) */
+ .primary-sb {
+    fill :var(--primary-color-sb, #ffffff);
+}
+
+.secondary-sb {
+    fill : var(--secondary-color-sb, #ffffff);  
+ }
+
+.start {
+    stop-color:  var(--start-color ,#01e5ce)
+}
+
+.end {
+    stop-color:  var(--end-color,#37b64e)
+}
+
+ /* Light icons color class (with Background) */
+ .primary-lb {
+    fill : var(--primary-color-lb, none);
+    stroke-width : var(--stroke-color-lb,8); 
+    stroke :var(--primary-strock-color-lb, #ffffff);
+}
+
+.secondary-lb {
+    fill : var(--secondary-color-ib, #ffffff);  
+ }
+  
+  
+  
+  
+  
