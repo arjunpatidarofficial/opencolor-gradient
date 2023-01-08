@@ -13,7 +13,7 @@ https://gradient.opencolor.co/
 
 ## Authors
 
-- [@arjunpatidarofficial](https://www.github.com/octokatherine)
+- [@arjunpatidarofficial](https://www.github.com/arjunpatidarofficial)
 
 ## 🚀 About Me
 I'm a full stack developer...
