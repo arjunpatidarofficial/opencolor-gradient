@@ -210,7 +210,7 @@ const Gradient = () => {
         }
       }}
       tabIndex="0"
-      className="flex items-center flex-col outline-none border-0 bg-primary w-full  pb-10"
+      className="flex items-center  flex-col outline-none border-0 bg-primary w-full  pb-10"
     >
       <div>
         <ShowWindowDimensions></ShowWindowDimensions>
@@ -245,7 +245,7 @@ const Gradient = () => {
           className="w-full flex bg-primary justify-center items-center rounded h-44"
         >
           <h1
-            className="text-4xl font-black select-none"
+            className="text-xl px-5 text-center sm:text-4xl font-black select-none"
             style={
               isBackground
                 ? {
@@ -429,8 +429,8 @@ const Gradient = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex py-10  border-t mt-5">
-            <div className="flex flex-col mt-7  items-center w-2/3 border-r border-gray-200">
+          <div className="w-full flex sm:flex-row flex-col-reverse py-10  border-t mt-5">
+            <div className="flex flex-col mt-7  items-center w-full sm:w-2/3 border-r border-gray-200">
               <ColorPicker
                 color={`rgba(${
                   thumbPointers[
@@ -480,13 +480,13 @@ const Gradient = () => {
                 }}
               />
             </div>
-            <div className="w-1/3 space-y-1 px-7 mt-5">
+            <div className="w-full sm:w-1/3 space-y-1 px-3 sm:px-7 mt-5">
               {finalArray.map((obj, index) => {
                 return (
                   <>
                     <div
                       onClick={(e) => setSelectedColor(obj.id)}
-                      className={`flex justify-center hover:bg-primary space-x-8 ${
+                      className={`flex justify-center hover:bg-primary space-x-6 ${
                         selectedColor === obj.id ? "bg-primary" : ""
                       } rounded-md py-2 items-center`}
                     >

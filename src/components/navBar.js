@@ -13,15 +13,15 @@ export default function Navbar(props) {
         <div className=" py-2  w-full  flex flex-col items-start justify-start ">
           <div className=" flex justify-center items-center">
             <img
-              className="w-14 h-14 rounded-full p-0.5 shadow-lg"
+              className="sm:w-14 sm:h-14 w-12 h-12 rounded-full p-0.5 shadow-lg"
               src="/opencolor.png"
             ></img>
-            <p className="text-black text-2xl font-bold ml-2">
+            <p className="text-black text-xl sm:text-2xl font-bold ml-2">
               OpenColor Gradient
             </p>
           </div>
         </div>
-        <div className="flex items-start py-5 gap-x-3  sm:mt-0 text-sm w-32">
+        <div className="sm:flex items-start py-5 gap-x-3 hidden  sm:mt-0 text-sm w-32">
           <a
             target="_blank"
             href="https://twitter.com/arjunpofficial"

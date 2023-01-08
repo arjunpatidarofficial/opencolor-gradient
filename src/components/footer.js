@@ -11,7 +11,7 @@ const Footer = () => {
         <p className="font-bold text-xl mt-4">OpenColor Gradient</p>
         <p className="text-gray-500 text-sm font-medium">V1.0.0(Beta)</p>
         <div className="w-full flex flex-col items-center justify-center">
-          <p className="text-gray-600 text-sm mt-5">
+          <p className="text-gray-600 text-center text-sm mt-5">
             Copyright © 2023{" "}
             <span className="font-semibold text-black">
               Arjun Patidar{" "}
